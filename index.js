@@ -16,7 +16,7 @@ app.get('/multiplica/:numero1/:numero2', (req, res) => {
 
 
 });
-app.get('/junta/:nom/:nombre', (req, res) => {
+app.get('/junta/:nom/con/:nombre', (req, res) => {
     var name1 = req.params.nom;
     var name2 = req.params.nombre;
     res.send(`junta ${name1} con ${name2}`);
